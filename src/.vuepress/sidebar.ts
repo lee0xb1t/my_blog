@@ -4,9 +4,9 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "Articles",
+      text: "WDM",
       icon: "book",
-      prefix: "posts/",
+      prefix: "wdm/",
       children: "structure",
     },
     // "intro",

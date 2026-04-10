@@ -24,7 +24,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "转载请注明出处",
+  footer: "未经许可不得以任何形式转载",
   displayFooter: true,
 
   // 博客相关

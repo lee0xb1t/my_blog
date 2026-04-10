@@ -1,5 +1,5 @@
 ---
-icon: glyphs-poly:ampersand-1
+icon: heroicons:cpu-chip-20-solid
 date: 2026-04-10
 updated: 2026-04-10
 tags:
@@ -11,6 +11,10 @@ tags:
 ---
 
 # WDM教程1：中断基础
+
+::: tip 版权声明
+本文版权归 [lee0xb1t](https://github.com/lee0xb1t) 所有，未经许可不得以任何形式转载。
+:::
 
 ## 什么是IRQL？
 
