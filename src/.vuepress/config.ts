@@ -16,6 +16,9 @@ export default defineUserConfig({
 
   //
   head: [
-    ['link', { rel: 'icon', href: '/logo.png' }]
+    ['link', { rel: 'icon', href: '/logo.png' }],
+    
+    ["link", { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/@ayahub/webfont-harmony-sans-sc/index.css" }],
+    ["link", { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/hack-font@latest/build/web/hack.css" }],
   ],
 });

@@ -4,6 +4,8 @@ export default sidebar({
   "/": [
     "",
     {
+      collapsible: true,
+      expanded: true,
       text: "WDM",
       icon: "book",
       prefix: "wdm/",
