@@ -144,7 +144,7 @@ KfRaiseIrql(
 }
 ```
 
-首先读取 cr8 并保存，接着写入新的cr8，结合之前的内容。我想读者已经知道了Irql的本质是什么。
+首先读取 cr8 并保存，接着写入新的cr8，结合之前的内容。我想读者已经知道了Irql的本质是什么了。
 
 ```c
 /* Interrupt request levels */
