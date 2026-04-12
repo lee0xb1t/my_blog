@@ -12,7 +12,7 @@ tags:
 
 # WDM教程5：内核同步机制
 
-## Lock
+## 内核锁
 
 * Spin Lock
 * Queued Spin Lock
