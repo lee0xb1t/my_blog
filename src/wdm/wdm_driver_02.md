@@ -4,7 +4,7 @@ date: 2026-04-11
 updated: 2026-04-11
 tags:
   - irql
-  - type
+  - primitive type
   - print
   - windows
   - driver
