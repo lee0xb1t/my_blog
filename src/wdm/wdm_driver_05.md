@@ -12,6 +12,16 @@ tags:
 
 # WDM教程5：内核同步机制
 
+## Lock
+
+* Spin Lock
+* Queued Spin Lock
+* Fast Mutex
+* Kernel Mutex
+* ERESOURCE
+* Push Lock
+* Guarded Mutex
+
 ## DPC
 
 **DPC（Deferred Procedure Call，延迟过程调用）**是 Windows 内核中用于将高`IRQL`的工作“降级”到稍低的`DISPATCH_LEVEL`执行的机制。它最典型的应用场景是：在**ISR（中断服务例程）**中快速响应硬件，然后将耗时的数据处理工作推迟到`DPC`中完成。
