@@ -630,6 +630,10 @@ NTSTATUS DriverEntry(PDRIVER_OBJECT DrvObj, PUNICODE_STRING RegistryPath) {
 }
 ```
 
+## 结尾
+
+[完整代码](https://github.com/lee0xb1t/my_learning/tree/main/windows/drivers/wdm/02_helloworld)
+
 ---
 
 ::: tip 版权声明
