@@ -1,5 +1,5 @@
 ---
-icon: heroicons:cpu-chip-20-solid
+icon: mdi:cog
 date: 2026-04-10
 updated: 2026-04-10
 tags:

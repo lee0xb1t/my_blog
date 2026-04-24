@@ -1,7 +1,8 @@
 ---
-icon: heroicons:cpu-chip-20-solid
-date: 2026-04-12
-updated: 2026-04-12
+icon: mdi:cog
+date: 2026-04-14
+updated: 2026-04-14
+
 tags:
   - timer
   - sync

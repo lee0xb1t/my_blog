@@ -1,7 +1,7 @@
 ---
-icon: heroicons:cpu-chip-20-solid
-date: 2026-04-12
-updated: 2026-04-12
+icon: mdi:cog
+date: 2026-04-16
+updated: 2026-04-16
 tags:
   - windows
   - driver

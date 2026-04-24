@@ -11,6 +11,14 @@ export default sidebar({
       prefix: "wdm/",
       children: "structure",
     },
+    {
+      collapsible: true,
+      expanded: true,
+      text: "WFP",
+      icon: "book",
+      prefix: "wfp/",
+      children: "structure",
+    },
     // "intro",
     // {
     //   text: "幻灯片",
