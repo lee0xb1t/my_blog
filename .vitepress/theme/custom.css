@@ -1,0 +1,99 @@
+@import url("https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.6.0/style.min.css");
+:root {
+  --vp-c-brand: #a27b5c;
+  --vp-c-brand-light: #a27b5c;
+  --vp-c-brand-dark: #a27b5c;
+  --vp-c-hover: #212121;
+
+  --vp-c-color-b: #26ccff;
+  --vp-c-color-c: #0cb9ed;
+  --vp-c-color-d: #a15000;
+  --vp-c-color-e: #ed7c0c;
+
+  --vp-font-family-base: "HarmonyOS Sans SC", "LXGW WenKai Lite", "Inter var experimental",
+    "Inter var", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --vp-font-family-mono: Consolas, "HarmonyOS Sans SC", Hack, "LXGW WenKai Mono Lite", ui-monospace, SFMono-Regular,
+    "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+    monospace;
+  --vp-avator-border: #ffffff;
+
+  --vp-c-bg: #faf6f1;
+  --vp-c-bg-alpha-with-backdrop: rgba(250, 246, 241, 0.7);
+
+  --vp-c-bg-soft: #f3e8de;
+  --vp-c-bg-alt: #f8f2eb;
+  --vp-c-bg-elv: #fefcf9;
+}
+.dark {
+  --vp-c-text: white;
+  --vp-c-hover: #ffffff;
+  --vp-avator-border: #3f4e4f;
+
+  --vp-c-bg-alpha-with-backdrop: rgba(44, 54, 57, 0.7);
+
+  --vp-c-bg: #2c3639;
+  --vp-c-bg-alt: #252e30;
+  --vp-c-bg-elv: #303b3e;
+  --vp-c-bg-soft: #374347;
+}
+#app {
+  min-height: 100vh;
+  position: relative;
+}
+
+.theme {
+  background-color: var(--vp-c-bg);
+}
+
+.vp-doc h2 {
+  margin-top: 0;
+  border-top: none;
+}
+
+.vp-doc a {
+  text-decoration: unset;
+}
+
+.VPDocOutlineDropdown {
+  display: none !important;
+}
+
+/* Prevent nav tabs from collapsing when theme toggle is present */
+.VPNavBar .VPNavBarMenu {
+  display: flex !important;
+}
+
+/* Nav tab icons via ::before */
+.VPNavBarMenuLink[href*="/notes/"]::before { content: "\1F4D6\00a0"; }
+.VPNavBarMenuLink[href*="/blogs/"]::before { content: "\270D\FE0F\00a0"; }
+.VPNavBarMenuLink[href="/archives"]::before { content: "\1F4C5\00a0"; }
+
+/* Small screens: hide nav text, show only icons */
+@media (max-width: 768px) {
+  .VPNavBarMenuLink::before {
+    margin-right: 0;
+  }
+  .VPNavBarMenuLink {
+    font-size: 0 !important;
+    padding: 0 8px !important;
+  }
+  .VPNavBarMenuLink::before {
+    font-size: 16px;
+  }
+}
+
+#mermaid-section-small .mermaid svg {
+  width: 60% !important;
+  height: auto !important;
+}
+
+#mermaid-section-medium .mermaid svg {
+  width: 75% !important;
+  height: auto !important;
+}
+
+#mermaid-section-large .mermaid svg {
+  width: 90% !important;
+  height: auto !important;
+}

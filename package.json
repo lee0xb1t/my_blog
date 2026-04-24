@@ -1,22 +1,35 @@
 {
-  "name": "b1tzz_blog",
-  "description": "My Personal Blog",
+  "name": "b1tzzsblog",
   "version": "1.0.0",
-  "license": "GPLv3",
+  "main": "index.js",
+  "author": "Bt1zz <lee0xb1t@163.com>",
+  "license": "MIT",
   "type": "module",
-  "scripts": {
-    "docs:build": "vuepress-vite build src",
-    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
-    "docs:dev": "vuepress-vite dev src",
-    "docs:update-package": "npx vp-update"
-  },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.28",
-    "katex": "^0.16.45",
-    "mermaid": "^11.14.0",
-    "sass-embedded": "^1.98.0",
-    "vue": "^3.5.31",
-    "vuepress": "2.0.0-rc.28",
-    "vuepress-theme-hope": "2.0.0-rc.106"
+    "@shikijs/vitepress-twoslash": "^3.23.0",
+    "@types/markdown-it": "^14.1.2",
+    "@types/node": "^25.4.0",
+    "dayjs": "^1.11.19",
+    "fast-glob": "^3.3.3",
+    "feed": "^4.2.2",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.1.1",
+    "markdown-it-mathjax3": "^4.3.2",
+    "mermaid": "^11.12.2",
+    "shiki": "^3.23.0",
+    "typescript": "^5.9.3",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.30"
+  },
+  "engines": {
+    "node": ">=24.14.0"
+  },
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "serve": "vitepress serve"
+  },
+  "dependencies": {
+    "gitalk": "^1.8.0"
   }
 }
