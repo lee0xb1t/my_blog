@@ -30,6 +30,7 @@
     "serve": "vitepress serve"
   },
   "dependencies": {
+    "@iconify/vue": "^5.0.0",
     "gitalk": "^1.8.0"
   }
 }
