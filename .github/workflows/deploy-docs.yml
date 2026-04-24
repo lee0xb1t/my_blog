@@ -37,12 +37,16 @@ jobs:
       - uses: oven-sh/setup-bun@v1
         with:
           bun-version: latest
+          
       - name: Setup Pages
         uses: actions/configure-pages@v4
+        
       - name: Install dependencies
-        run: npm ci # 或 pnpm install / yarn install / bun install
+        run: bun install # 或 pnpm install / yarn install / bun install
+        
       - name: Build with VitePress
-        run: npm run docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
+        run: bun run build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
