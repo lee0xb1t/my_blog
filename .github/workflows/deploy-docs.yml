@@ -34,11 +34,9 @@ jobs:
       #   with:
       #     version: 9
       # - uses: oven-sh/setup-bun@v1 # 如果使用 Bun，请取消注释
-      - name: Setup Node
-        uses: actions/setup-node@v6
+      - uses: oven-sh/setup-bun@v1
         with:
-          node-version: 24
-          cache: npm # 或 pnpm / yarn
+          bun-version: latest
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
