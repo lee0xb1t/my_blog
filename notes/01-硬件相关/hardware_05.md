@@ -29,8 +29,12 @@ tags:
   当运放$V_+<V_-$时，输出$V_{out}$下降
 
   ![运放虚短电路](./images/yunfang_xuduan.png)
+  
+## 运放电阻匹配
 
-### 深度负反馈电路
+在同相端和反相端添加相同阻值电阻，消除偏置电流的影响。
+
+## 深度负反馈电路
 
 如果没有深度负反馈电路，那么运放只是一个比较器，只有加入深度负反馈电路，虚短和虚断才成立。
 
@@ -65,6 +69,8 @@ For $R_2=R_1$ and $R_3=R_f$, $V_{out}=\frac{R_f}{R_1}(V_1-V_2)$
 
 ![运放-差分放大电路](./images/yunfang_chaffd.png)
 
+![差分放大电路仿真](./images/cahffddl_sim.png)
+
 ## 低端电流检测电路
 
 $I_{in}=\frac{V_{in}}{R_{in}}$
@@ -93,3 +99,61 @@ $V_{out}=I_{in} \times R_x \times \frac{R_f}{R_1} + V_{ref}$
 **与低端电流检测电路几乎相同，只不过负载加载采样电阻下方。**
 
 ![高端电流检测电路](./images/gaoduandljc.png)
+
+* 在正常电路中很少使用，因为该电路中的差分放大电路的阻抗比较低。
+
+## 仪表放大电路
+
+一种经过特殊设计的差分放大器，有极高输入阻抗，低噪声，高精度。
+
+$V_{out}=(V_2-V_1)(1+\frac{2R_1}{R_{gain}})(\frac{R_3}{R_2}) + V_{ref}$
+
+![仪表放大电路](./images/yibiaofangdaqi.png)
+
+### 仪表放大电路 - 高端电流检测
+
+![仪表放大电路-高端电流检测](./images/yibiaofangdaqi_dljc.png)
+
+## 跨组放大电路
+
+按比例放大电流：$V_{out}=I_{in} \times R_f$
+
+![跨组放大电路](./images/kuazufd.png)
+
+## 恒流源电路
+
+向负载提供恒定电流的电源电路
+
+### 三极管恒流源
+
+使用运放和NPN三极管
+
+公式：$I_{load}=\frac{V_{ref}}{R_s}$
+
+![恒流源电路](./images/henliuyuandl.png)
+
+### MOS管恒流源
+
+## 直流稳压电源
+
+## BUCK开关电源基础
+
+![BUCK](./images/buck_basic.png)
+
+## BOOST开关电源基础
+
+闭合开关为电感充电，打开开关为后级电容充电。
+
+![BOOST](./images/boost_basic.png)
+
+* 电感一般选择饱和电流的1.5倍，电感超过饱和电流后相当于导线，此时电流会快速上升。
+
+## 电荷泵
+
+### 电荷泵升压
+
+![电荷泵升压](./images/dianheb-sy.png)
+
+### 电荷泵产生负压
+
+![电荷泵产生负压](./images/dianheb-fy.png)
