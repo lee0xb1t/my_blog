@@ -1,6 +1,6 @@
 ---
 title: VMP分析 0x0：虚拟机壳基本概念
-icon: mdi:cog
+icon: icon-park:file-protection-one
 date: 2026-06-20
 updated: 2026-06-20
 tags:
@@ -9,8 +9,6 @@ tags:
   - shell
   - conc ept
 ---
-
-# VMP分析 0x0：虚拟机壳基本概念
 
 ## 虚拟机壳
 

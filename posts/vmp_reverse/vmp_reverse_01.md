@@ -1,6 +1,6 @@
 ---
 title: VMP分析 0x1：VMP1.09版本分析
-icon: mdi:cog
+icon: icon-park:file-protection-one
 date: 2026-06-21
 updated: 2026-06-21
 tags:
@@ -8,7 +8,7 @@ tags:
   - virtualize
   - shell
   - x64dbg
-  - CFG
+  - ida
 ---
 
 VMP的早期版本相对简单，使用IDA就能大致分析出其结构，非常适合作为入门学习。
