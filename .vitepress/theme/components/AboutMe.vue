@@ -6,7 +6,7 @@
       </div>
       <h1 class="about-name">B1tzz</h1>
       <p class="about-bio">
-        什么都会点
+        .....
       </p>
       <div class="about-desc">
         <p>
